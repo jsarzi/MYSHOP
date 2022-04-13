@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("Avenir/AvenirLTStd-Book.otf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #fafafa;
+  font-family: "Avenir";
+  font-size: 16px;
+}
+
+img {
+  width: 16%;
+  height: 20%;
+}
+.header h2 {
+  font-family: "Avenir";
+  font-size: 25px;
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: black;
+  text-align: center;
+  border: 1px solid #292a2c;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+form,
+.content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #292a2c;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+  font-family: "Avenir";
+  font-size: 16px;
+  margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+  font-family: "Avenir";
+  font-size: 16px;
+}
+
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-family: "Avenir";
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: gray;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
